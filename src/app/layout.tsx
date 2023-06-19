@@ -1,17 +1,17 @@
-import "./globals.scss";
-import Image from "next/image";
-import Link from "next/link";
+import './globals.scss'
+import Image from 'next/image'
+import Link from 'next/link'
 
 export const metadata = {
-  title: "Spider-Verse",
+  title: 'Spider-Verse',
   description:
-    "Criando um carrossel parallax do Aranhaverso com React, Next.js 13 e Framer Motion",
-};
+    'Criando um carrossel parallax do Aranhaverso com React, Next.js 13 e Framer Motion',
+}
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
     <html lang="pt-BR">
@@ -44,5 +44,5 @@ export default function RootLayout({
         {children}
       </body>
     </html>
-  );
+  )
 }
